@@ -51,9 +51,9 @@ Crea una función que retorne el valor del producto más costoso.
 //esta funcion comprueba el valor mas alto de un arreglo dado
 function masCostoso(arreglo){
     var masAlto = arreglo[0];
-    for (i=0; arreglo.length<i; i++){
-        if (masAlto < array[i]) {
-            masAlto = array[i];
+    for (i=0; arreglo.length>i; i++){
+        if (masAlto < arreglo[i]) {
+            masAlto = arreglo[i];
         } return masAlto;
         console.log(masAlto);
     }
